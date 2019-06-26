@@ -1,0 +1,12 @@
+{
+    "model": ["bc",
+              "mma.0",
+              "mma.1",
+              "mma.2"],
+    "env": [
+            "mountaincar",
+            "acrobot",
+            "cartpole",
+            "sepsis"],
+    "traj_limitation": [1, 10, 100, 1000]
+}

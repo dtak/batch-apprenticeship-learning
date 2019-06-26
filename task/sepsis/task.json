@@ -1,0 +1,8 @@
+{ "env_id": "sepsis",
+  "type": "sepsis",
+  "n_action": 5,
+  "max_iter": 200,
+  "horizon": 200,
+  "gamma": 0.99
+}
+

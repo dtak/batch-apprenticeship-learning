@@ -1,0 +1,13 @@
+{ "env_id": "Acrobot-v1",
+  "type": "gym",
+  "n_action": 3,
+  "max_iter": 500,
+  "horizon": 500,
+  "gamma": 0.99,
+  "reward_threshold": 475.0,
+  "demo_size": {
+      "expert": [10, 100, 1000],
+      "no_expert": [100, 1000, 10000]
+  },
+  "gamma": 0.99
+}

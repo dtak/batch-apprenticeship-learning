@@ -1,0 +1,15 @@
+{
+    "id": "mma",
+    "version": 1,
+    "name": "max_margin_abbeel",
+    "precision" : 0.01,
+    "n_iteration" : 10,
+    "method" : "max_margin",
+    "mdp_solver": "lspi",
+    "mu_estimator": "lstd",
+    "eps" : 0.01,
+    "n_component" : 5,
+    "standardized" : true,
+    "add_bias" : true,
+    "include_action": false
+}

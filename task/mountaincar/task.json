@@ -1,0 +1,12 @@
+{ "env_id": "MountainCar-v0",
+  "type": "gym",
+  "n_action": 3,
+  "max_iter": 200,
+  "horizon": 200,
+  "reward_threshold": -110.0,
+  "demo_size": {
+      "expert": [10, 100, 1000],
+      "no_expert": [100, 1000, 10000]
+  },
+  "gamma": 0.99
+}
